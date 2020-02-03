@@ -12,5 +12,6 @@ def comp_fract(c, n):
                          
 
                          
-a = [i for i in range(1,11)]
-print("Fraction: ", (comp_fract(a, len(a))))
+if __name__ == "__main__":
+    a = [i for i in range(1,11)]
+    print("Fraction: ", (comp_fract(a, len(a))))

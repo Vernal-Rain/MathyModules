@@ -39,9 +39,10 @@ def taylor(f, x, a, n):
     
 
 #Testing it out...
-for i in range(10):
-    print (nth_deriv(f, pi/2, i))
+if __name__ == "__main__":
+    for i in range(10):
+        print (str(i)+"th deriv:", nth_deriv(f, pi/2, i))
 
-print ("Using approx: " + str(taylor(f, pi/2+0.01, pi/2, 5)))
-    
-print ("Actual: " + str(f(pi/2+0.01)))
+    print ("Using approx: " + str(taylor(f, pi/2+0.01, pi/2, 5)))
+        
+    print ("Actual: " + str(f(pi/2+0.01)))

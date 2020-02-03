@@ -1,2 +1,2 @@
-# RandomAlgorithms-again-
-Now in python 
+# Python modules for random math stuff
+
